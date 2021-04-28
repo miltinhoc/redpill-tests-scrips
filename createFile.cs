@@ -1,11 +1,12 @@
-using System.Diagnostics;
+using System.IO;
+
 namespace Console
 {
     class Program
     {
         static void Main(string[] args)
         {
-            System.IO.File.WriteAllText("a.txt", "test");
+            File.WriteAllText("a.txt", "test");
         }
     }
 }
